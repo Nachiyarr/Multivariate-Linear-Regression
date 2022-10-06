@@ -27,7 +27,7 @@ Print the predicted output.
 
 ## Developed by : K.Alagu Nachiyar
 ## REGISTER NUMBER : 22002084
-
+```
 import pandas as pd
 from sklearn import linear_model
 
@@ -41,7 +41,7 @@ print('Intercept:',regr.intercept_)
 predictCO2=regr.predict([[3300,1300]])
 print('predicted CO2 for the corresponding weight and volume',predictCO2)
 
-
+```
 ## Output:
 ![multi](https://user-images.githubusercontent.com/113497340/194203391-42387e24-95d8-4d1b-8894-fa796a54dc86.png)
 
